@@ -1,5 +1,6 @@
 //import './Form.css';
 import Input from '../Form/Input/Input.js'
+import Button from '../Form/Button/Button.js'
 function Form(){
     return (
         <div className="form">
@@ -14,7 +15,7 @@ function Form(){
                 <Input tipo={'time'} nombre={'hora'} ></Input><br></br>
                 <label>Sintomas</label><br></br>
                 <textarea name="sintomas" class="u-full-width"></textarea><br></br>
-                <button type="submit" class="u-full-width button-primary">Agregar Cita</button>
+                <Button tipo={'submit'} clase={'u-full-width button-primary'}></Button>
             </form>
         </div>
     )
