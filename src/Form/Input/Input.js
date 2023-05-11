@@ -1,7 +1,8 @@
 
+import '../../App/App.css'
 function Input({tipo, nombre,placeholder}) {
     return (
-        <input type={tipo} name={nombre} placeholder={placeholder} className="u-full width"></input>
+        <input type={tipo} name={nombre} placeholder={placeholder} className="u-full-width"></input>
     )
 }
 
