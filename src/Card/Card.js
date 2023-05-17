@@ -1,13 +1,12 @@
 import '../App/App.js';
-import Datos from './Datos/Datos.js'
 function Card(props) {
     return (
-    <div class="cita">
-        <Datos dato={'Nina'}></Datos>
-        <Datos dato={'Martin'}></Datos>
-        <Datos dato={'2021-08-05'}></Datos>
-        <Datos dato={'Nina'}></Datos>
-        <Datos dato={'Nina'}></Datos>
+    <div className="cita">
+        <p>Mascota: <span>{props.nombre}</span></p>
+        <p>Dueño: <span>{props.dueño}</span></p>
+        <p>Fecha: <span>{props.fecha}</span></p>
+        <p>Hora: <span>{props.hora}</span></p>
+        <p>Sintomas: <span>{props.sintomas}</span></p><button class="button elimnar u-full-width">Eliminar ×</button>
     </div>
     )
 }
