@@ -1,4 +1,4 @@
-import '../App/App.css'
+import './Form.css'
 import Input from '../Form/Input/Input.js'
 import Button from '../Form/Button/Button.js'
 function Form({citas,setCitas}){

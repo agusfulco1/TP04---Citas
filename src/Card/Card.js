@@ -1,8 +1,9 @@
-import '../App/App.js';
+import './Card.css';
 function Card(props) {
     const eliminarCita = (id) => {
-        props.setCitas(props.citas.filter(cita => cita.id !== id))
-        
+        if (window.confirm("Seguro que quiere eliminar?")) {
+            props.setCitas(props.citas.filter(cita => cita.id !== id))
+        }
     }
     return (
     <div className="cita">
