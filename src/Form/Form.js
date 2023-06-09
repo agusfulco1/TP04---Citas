@@ -14,16 +14,17 @@ function Form({citas,setCitas}){
                     fecha: evento.target.fecha.value,
                     hora: evento.target.hora.value,
                     sintomas: evento.target.sintomas.value,
+                    esEliminado: false
 
                 }
             ]
         );
-        evento.target.mascota.value ='';
+        //habilitarlo para cuando se envie
+        /*evento.target.mascota.value ='';
         evento.target.propietario.value = '';
         evento.target.fecha.value = '';
         evento.target.hora.value = '';
-        evento.target.sintomas.value = '';
-        console.log(citas)
+        evento.target.sintomas.value = '';*/
     }
     return (
         <div className="form">
