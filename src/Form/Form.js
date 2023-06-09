@@ -14,8 +14,7 @@ function Form({citas,setCitas}){
                     fecha: evento.target.fecha.value,
                     hora: evento.target.hora.value,
                     sintomas: evento.target.sintomas.value,
-                    esEliminado: false
-
+                    id: Math.floor(Math.random()*1E16),
                 }
             ]
         );

@@ -1,4 +1,4 @@
-import '../../App/App.css'
+import '../Input/input.css'
 function Input({tipo, nombre,placeholder}) {
     return (
         <input type={tipo} name={nombre} placeholder={placeholder} className="u-full-width"></input>
